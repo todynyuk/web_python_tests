@@ -1,0 +1,472 @@
+{
+  "coord": {
+    "lon": -75.4999,
+    "lat": 43.0004
+  },
+  "weather": [
+    {
+      "id": 804,
+      "main": "Clouds",
+      "description": "overcast clouds",
+      "icon": "04d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 9.1,
+    "feels_like": 9.1,
+    "temp_min": 6.61,
+    "temp_max": 11.98,
+    "pressure": 1018,
+    "humidity": 77
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 0.45,
+    "deg": 0,
+    "gust": 2.24
+  },
+  "clouds": {
+    "all": 100
+  },
+  "dt": 1680700120,
+  "sys": {
+    "type": 2,
+    "id": 2007118,
+    "country": "US",
+    "sunrise": 1680691040,
+    "sunset": 1680737507
+  },
+  "timezone": -14400,
+  "id": 5128638,
+  "name": "New York",
+  "cod": 200
+}{
+  "coord": {
+    "lon": -122.661,
+    "lat": 45.639
+  },
+  "weather": [
+    {
+      "id": 804,
+      "main": "Clouds",
+      "description": "overcast clouds",
+      "icon": "04n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 2.96,
+    "feels_like": 1.56,
+    "temp_min": 0.85,
+    "temp_max": 4.43,
+    "pressure": 1024,
+    "humidity": 93
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 1.54,
+    "deg": 140
+  },
+  "clouds": {
+    "all": 100
+  },
+  "dt": 1680699753,
+  "sys": {
+    "type": 1,
+    "id": 6207,
+    "country": "US",
+    "sunrise": 1680702199,
+    "sunset": 1680748981
+  },
+  "timezone": -25200,
+  "id": 5814616,
+  "name": "Vancouver",
+  "cod": 200
+}{
+  "coord": {
+    "lon": -78.4975,
+    "lat": -9.1242
+  },
+  "weather": [
+    {
+      "id": 803,
+      "main": "Clouds",
+      "description": "broken clouds",
+      "icon": "04d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 25.46,
+    "feels_like": 26.1,
+    "temp_min": 25.46,
+    "temp_max": 25.46,
+    "pressure": 1010,
+    "humidity": 78,
+    "sea_level": 1010,
+    "grnd_level": 999
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 1.54,
+    "deg": 179,
+    "gust": 1.7
+  },
+  "clouds": {
+    "all": 53
+  },
+  "dt": 1680700160,
+  "sys": {
+    "country": "PE",
+    "sunrise": 1680693423,
+    "sunset": 1680736562
+  },
+  "timezone": -18000,
+  "id": 6559994,
+  "name": "Buenos Aires",
+  "cod": 200
+}{
+  "coord": {
+    "lon": -75.4999,
+    "lat": 43.0004
+  },
+  "weather": [
+    {
+      "id": 804,
+      "main": "Clouds",
+      "description": "overcast clouds",
+      "icon": "04d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 9.1,
+    "feels_like": 9.1,
+    "temp_min": 6.61,
+    "temp_max": 11.98,
+    "pressure": 1018,
+    "humidity": 77
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 0.45,
+    "deg": 0,
+    "gust": 2.24
+  },
+  "clouds": {
+    "all": 100
+  },
+  "dt": 1680700120,
+  "sys": {
+    "type": 2,
+    "id": 2007118,
+    "country": "US",
+    "sunrise": 1680691040,
+    "sunset": 1680737507
+  },
+  "timezone": -14400,
+  "id": 5128638,
+  "name": "New York",
+  "cod": 200
+}{
+  "coord": {
+    "lon": -75.4999,
+    "lat": 43.0004
+  },
+  "weather": [
+    {
+      "id": 804,
+      "main": "Clouds",
+      "description": "overcast clouds",
+      "icon": "04d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 9.1,
+    "feels_like": 9.1,
+    "temp_min": 6.61,
+    "temp_max": 11.98,
+    "pressure": 1018,
+    "humidity": 77
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 0.45,
+    "deg": 0,
+    "gust": 2.24
+  },
+  "clouds": {
+    "all": 100
+  },
+  "dt": 1680700120,
+  "sys": {
+    "type": 2,
+    "id": 2007118,
+    "country": "US",
+    "sunrise": 1680691040,
+    "sunset": 1680737507
+  },
+  "timezone": -14400,
+  "id": 5128638,
+  "name": "New York",
+  "cod": 200
+}{
+  "coord": {
+    "lon": -75.4999,
+    "lat": 43.0004
+  },
+  "weather": [
+    {
+      "id": 804,
+      "main": "Clouds",
+      "description": "overcast clouds",
+      "icon": "04d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 9.1,
+    "feels_like": 9.1,
+    "temp_min": 6.61,
+    "temp_max": 11.98,
+    "pressure": 1018,
+    "humidity": 77
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 0.45,
+    "deg": 0,
+    "gust": 2.24
+  },
+  "clouds": {
+    "all": 100
+  },
+  "dt": 1680700120,
+  "sys": {
+    "type": 2,
+    "id": 2007118,
+    "country": "US",
+    "sunrise": 1680691040,
+    "sunset": 1680737507
+  },
+  "timezone": -14400,
+  "id": 5128638,
+  "name": "New York",
+  "cod": 200
+}{
+  "coord": {
+    "lon": -75.4999,
+    "lat": 43.0004
+  },
+  "weather": [
+    {
+      "id": 804,
+      "main": "Clouds",
+      "description": "overcast clouds",
+      "icon": "04d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 9.1,
+    "feels_like": 9.1,
+    "temp_min": 6.61,
+    "temp_max": 11.98,
+    "pressure": 1018,
+    "humidity": 77
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 0.45,
+    "deg": 0,
+    "gust": 2.24
+  },
+  "clouds": {
+    "all": 100
+  },
+  "dt": 1680700120,
+  "sys": {
+    "type": 2,
+    "id": 2007118,
+    "country": "US",
+    "sunrise": 1680691040,
+    "sunset": 1680737507
+  },
+  "timezone": -14400,
+  "id": 5128638,
+  "name": "New York",
+  "cod": 200
+}{
+  "coord": {
+    "lon": -75.4999,
+    "lat": 43.0004
+  },
+  "weather": [
+    {
+      "id": 804,
+      "main": "Clouds",
+      "description": "overcast clouds",
+      "icon": "04d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 9.1,
+    "feels_like": 9.1,
+    "temp_min": 6.61,
+    "temp_max": 11.98,
+    "pressure": 1018,
+    "humidity": 77
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 0.45,
+    "deg": 0,
+    "gust": 2.24
+  },
+  "clouds": {
+    "all": 100
+  },
+  "dt": 1680700120,
+  "sys": {
+    "type": 2,
+    "id": 2007118,
+    "country": "US",
+    "sunrise": 1680691040,
+    "sunset": 1680737507
+  },
+  "timezone": -14400,
+  "id": 5128638,
+  "name": "New York",
+  "cod": 200
+}{
+  "coord": {
+    "lon": -75.4999,
+    "lat": 43.0004
+  },
+  "weather": [
+    {
+      "id": 804,
+      "main": "Clouds",
+      "description": "overcast clouds",
+      "icon": "04d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 9.16,
+    "feels_like": 8.87,
+    "temp_min": 7.11,
+    "temp_max": 11.98,
+    "pressure": 1018,
+    "humidity": 76
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 1.34,
+    "deg": 183,
+    "gust": 3.13
+  },
+  "clouds": {
+    "all": 100
+  },
+  "dt": 1680700725,
+  "sys": {
+    "type": 2,
+    "id": 2007118,
+    "country": "US",
+    "sunrise": 1680691040,
+    "sunset": 1680737507
+  },
+  "timezone": -14400,
+  "id": 5128638,
+  "name": "New York",
+  "cod": 200
+}{
+  "coord": {
+    "lon": -122.6615,
+    "lat": 45.6387
+  },
+  "weather": [
+    {
+      "id": 804,
+      "main": "Clouds",
+      "description": "overcast clouds",
+      "icon": "04n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 2.83,
+    "feels_like": 1.42,
+    "temp_min": 0.6,
+    "temp_max": 4.43,
+    "pressure": 1023,
+    "humidity": 91
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 1.54,
+    "deg": 140
+  },
+  "clouds": {
+    "all": 100
+  },
+  "dt": 1680700853,
+  "sys": {
+    "type": 1,
+    "id": 6207,
+    "country": "US",
+    "sunrise": 1680702199,
+    "sunset": 1680748981
+  },
+  "timezone": -25200,
+  "id": 5814616,
+  "name": "Vancouver",
+  "cod": 200
+}{
+  "coord": {
+    "lon": -78.4975,
+    "lat": -9.1242
+  },
+  "weather": [
+    {
+      "id": 803,
+      "main": "Clouds",
+      "description": "broken clouds",
+      "icon": "04d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 25.46,
+    "feels_like": 26.1,
+    "temp_min": 25.46,
+    "temp_max": 25.46,
+    "pressure": 1010,
+    "humidity": 78,
+    "sea_level": 1010,
+    "grnd_level": 999
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 1.54,
+    "deg": 179,
+    "gust": 1.7
+  },
+  "clouds": {
+    "all": 53
+  },
+  "dt": 1680700859,
+  "sys": {
+    "country": "PE",
+    "sunrise": 1680693423,
+    "sunset": 1680736562
+  },
+  "timezone": -18000,
+  "id": 6559994,
+  "name": "Buenos Aires",
+  "cod": 200
+}{"coord": {"lon": -74.006, "lat": 40.7143}, "weather": [{"id": 701, "main": "Mist", "description": "mist", "icon": "50n"}], "base": "stations", "main": {"temp": 8.88, "feels_like": 6.34, "temp_min": 7.75, "temp_max": 10.56, "pressure": 1019, "humidity": 93}, "visibility": 2414, "wind": {"speed": 4.63, "deg": 20}, "clouds": {"all": 100}, "dt": 1680770269, "sys": {"type": 2, "id": 2008101, "country": "US", "sunrise": 1680777099, "sunset": 1680823496}, "timezone": -14400, "id": 5128581, "name": "New York", "cod": 200}{"coord": {"lon": -123.1193, "lat": 49.2497}, "weather": [{"id": 500, "main": "Rain", "description": "light rain", "icon": "10n"}], "base": "stations", "main": {"temp": 7.42, "feels_like": 4.1, "temp_min": 6.12, "temp_max": 8.58, "pressure": 1015, "humidity": 75}, "visibility": 10000, "wind": {"speed": 5.66, "deg": 90}, "rain": {"1h": 0.92}, "clouds": {"all": 100}, "dt": 1680770050, "sys": {"type": 2, "id": 2011597, "country": "CA", "sunrise": 1680788358, "sunset": 1680835806}, "timezone": -25200, "id": 6173331, "name": "Vancouver", "cod": 200}{"coord": {"lon": -58.3772, "lat": -34.6132}, "weather": [{"id": 802, "main": "Clouds", "description": "scattered clouds", "icon": "03n"}], "base": "stations", "main": {"temp": 19.34, "feels_like": 19.31, "temp_min": 16.82, "temp_max": 19.97, "pressure": 1019, "humidity": 76}, "visibility": 10000, "wind": {"speed": 3.6, "deg": 50}, "clouds": {"all": 40}, "dt": 1680770031, "sys": {"type": 1, "id": 8224, "country": "AR", "sunrise": 1680775768, "sunset": 1680817326}, "timezone": -10800, "id": 3435910, "name": "Buenos Aires", "cod": 200}{"coord": {"lon": -74.006, "lat": 40.7143}, "weather": [{"id": 701, "main": "Mist", "description": "mist", "icon": "50n"}], "base": "stations", "main": {"temp": 8.88, "feels_like": 6.34, "temp_min": 7.75, "temp_max": 10.56, "pressure": 1019, "humidity": 93}, "visibility": 2414, "wind": {"speed": 4.63, "deg": 20}, "clouds": {"all": 100}, "dt": 1680770269, "sys": {"type": 2, "id": 2008101, "country": "US", "sunrise": 1680777099, "sunset": 1680823496}, "timezone": -14400, "id": 5128581, "name": "New York", "cod": 200}{"coord": {"lon": -123.1193, "lat": 49.2497}, "weather": [{"id": 500, "main": "Rain", "description": "light rain", "icon": "10n"}], "base": "stations", "main": {"temp": 7.42, "feels_like": 4.1, "temp_min": 6.12, "temp_max": 8.58, "pressure": 1015, "humidity": 75}, "visibility": 10000, "wind": {"speed": 5.66, "deg": 90}, "rain": {"1h": 0.92}, "clouds": {"all": 100}, "dt": 1680770050, "sys": {"type": 2, "id": 2011597, "country": "CA", "sunrise": 1680788358, "sunset": 1680835806}, "timezone": -25200, "id": 6173331, "name": "Vancouver", "cod": 200}{"coord": {"lon": -58.3772, "lat": -34.6132}, "weather": [{"id": 802, "main": "Clouds", "description": "scattered clouds", "icon": "03n"}], "base": "stations", "main": {"temp": 19.34, "feels_like": 19.31, "temp_min": 16.82, "temp_max": 19.97, "pressure": 1019, "humidity": 76}, "visibility": 10000, "wind": {"speed": 3.6, "deg": 50}, "clouds": {"all": 40}, "dt": 1680770031, "sys": {"type": 1, "id": 8224, "country": "AR", "sunrise": 1680775768, "sunset": 1680817326}, "timezone": -10800, "id": 3435910, "name": "Buenos Aires", "cod": 200}{"coord": {"lon": -74.006, "lat": 40.7143}, "weather": [{"id": 701, "main": "Mist", "description": "mist", "icon": "50n"}], "base": "stations", "main": {"temp": 8.88, "feels_like": 6.34, "temp_min": 7.75, "temp_max": 10.56, "pressure": 1019, "humidity": 93}, "visibility": 2414, "wind": {"speed": 4.63, "deg": 20}, "clouds": {"all": 100}, "dt": 1680770534, "sys": {"type": 2, "id": 2008101, "country": "US", "sunrise": 1680777099, "sunset": 1680823496}, "timezone": -14400, "id": 5128581, "name": "New York", "cod": 200}{"coord": {"lon": -123.1193, "lat": 49.2497}, "weather": [{"id": 500, "main": "Rain", "description": "light rain", "icon": "10n"}], "base": "stations", "main": {"temp": 7.44, "feels_like": 4.12, "temp_min": 6.12, "temp_max": 8.58, "pressure": 1015, "humidity": 75}, "visibility": 10000, "wind": {"speed": 5.66, "deg": 90}, "rain": {"1h": 0.8}, "clouds": {"all": 100}, "dt": 1680770498, "sys": {"type": 2, "id": 2011597, "country": "CA", "sunrise": 1680788358, "sunset": 1680835806}, "timezone": -25200, "id": 6173331, "name": "Vancouver", "cod": 200}{"coord": {"lon": -58.3772, "lat": -34.6132}, "weather": [{"id": 802, "main": "Clouds", "description": "scattered clouds", "icon": "03n"}], "base": "stations", "main": {"temp": 19.34, "feels_like": 19.31, "temp_min": 16.82, "temp_max": 19.97, "pressure": 1019, "humidity": 76}, "visibility": 10000, "wind": {"speed": 3.6, "deg": 50}, "clouds": {"all": 40}, "dt": 1680770403, "sys": {"type": 1, "id": 8224, "country": "AR", "sunrise": 1680775768, "sunset": 1680817326}, "timezone": -10800, "id": 3435910, "name": "Buenos Aires", "cod": 200}{"coord": {"lon": -75.4999, "lat": 43.0004}, "weather": [{"id": 804, "main": "Clouds", "description": "overcast clouds", "icon": "04n"}], "base": "stations", "main": {"temp": 12.63, "feels_like": 12.43, "temp_min": 8.71, "temp_max": 15.87, "pressure": 1015, "humidity": 95}, "visibility": 10000, "wind": {"speed": 5.78, "deg": 239, "gust": 13.58}, "clouds": {"all": 100}, "dt": 1680770199, "sys": {"type": 2, "id": 2007118, "country": "US", "sunrise": 1680777335, "sunset": 1680823976}, "timezone": -14400, "id": 5128638, "name": "New York", "cod": 200}{"coord": {"lon": -122.6615, "lat": 45.6387}, "weather": [{"id": 804, "main": "Clouds", "description": "overcast clouds", "icon": "04n"}], "base": "stations", "main": {"temp": 7.2, "feels_like": 4.03, "temp_min": 5.98, "temp_max": 8.34, "pressure": 1016, "humidity": 92}, "visibility": 10000, "wind": {"speed": 5.14, "deg": 100}, "clouds": {"all": 100}, "dt": 1680769858, "sys": {"type": 1, "id": 6207, "country": "US", "sunrise": 1680788486, "sunset": 1680835458}, "timezone": -25200, "id": 5814616, "name": "Vancouver", "cod": 200}{"coord": {"lon": -78.4975, "lat": -9.1242}, "weather": [{"id": 804, "main": "Clouds", "description": "overcast clouds", "icon": "04n"}], "base": "stations", "main": {"temp": 24.88, "feels_like": 25.43, "temp_min": 24.88, "temp_max": 24.88, "pressure": 1009, "humidity": 77, "sea_level": 1009, "grnd_level": 997}, "visibility": 10000, "wind": {"speed": 1.65, "deg": 201, "gust": 1.59}, "clouds": {"all": 100}, "dt": 1680770564, "sys": {"country": "PE", "sunrise": 1680779820, "sunset": 1680822930}, "timezone": -18000, "id": 6559994, "name": "Buenos Aires", "cod": 200}{"coord": {"lon": -75.4999, "lat": 43.0004}, "weather": [{"id": 804, "main": "Clouds", "description": "overcast clouds", "icon": "04n"}], "base": "stations", "main": {"temp": 12.63, "feels_like": 12.43, "temp_min": 8.71, "temp_max": 15.87, "pressure": 1015, "humidity": 95}, "visibility": 10000, "wind": {"speed": 5.78, "deg": 239, "gust": 13.58}, "clouds": {"all": 100}, "dt": 1680770420, "sys": {"type": 2, "id": 2007118, "country": "US", "sunrise": 1680777335, "sunset": 1680823976}, "timezone": -14400, "id": 5128638, "name": "New York", "cod": 200}{"coord": {"lon": -122.6615, "lat": 45.6387}, "weather": [{"id": 500, "main": "Rain", "description": "light rain", "icon": "10n"}], "base": "stations", "main": {"temp": 7.22, "feels_like": 4.05, "temp_min": 5.98, "temp_max": 8.39, "pressure": 1016, "humidity": 92}, "visibility": 10000, "wind": {"speed": 5.14, "deg": 100}, "rain": {"1h": 0.26}, "clouds": {"all": 100}, "dt": 1680770575, "sys": {"type": 1, "id": 6207, "country": "US", "sunrise": 1680788486, "sunset": 1680835458}, "timezone": -25200, "id": 5814616, "name": "Vancouver", "cod": 200}{"coord": {"lon": -78.4975, "lat": -9.1242}, "weather": [{"id": 804, "main": "Clouds", "description": "overcast clouds", "icon": "04n"}], "base": "stations", "main": {"temp": 24.88, "feels_like": 25.43, "temp_min": 24.88, "temp_max": 24.88, "pressure": 1009, "humidity": 77, "sea_level": 1009, "grnd_level": 997}, "visibility": 10000, "wind": {"speed": 1.65, "deg": 201, "gust": 1.59}, "clouds": {"all": 100}, "dt": 1680770581, "sys": {"country": "PE", "sunrise": 1680779820, "sunset": 1680822930}, "timezone": -18000, "id": 6559994, "name": "Buenos Aires", "cod": 200}{"coord": {"lon": -74.006, "lat": 40.7143}, "weather": [{"id": 804, "main": "Clouds", "description": "overcast clouds", "icon": "04n"}], "base": "stations", "main": {"temp": 13.57, "feels_like": 11.87, "temp_min": 12.21, "temp_max": 14.19, "pressure": 1025, "humidity": 34}, "visibility": 10000, "wind": {"speed": 6.17, "deg": 330, "gust": 10.29}, "clouds": {"all": 100}, "dt": 1680855796, "sys": {"type": 2, "id": 2008101, "country": "US", "sunrise": 1680863402, "sunset": 1680909958}, "timezone": -14400, "id": 5128581, "name": "New York", "cod": 200}{"coord": {"lon": -123.1193, "lat": 49.2497}, "weather": [{"id": 501, "main": "Rain", "description": "moderate rain", "icon": "10n"}], "base": "stations", "main": {"temp": 9.32, "feels_like": 6.32, "temp_min": 7.68, "temp_max": 10.57, "pressure": 1005, "humidity": 93}, "visibility": 10000, "wind": {"speed": 6.17, "deg": 100}, "rain": {"1h": 3.16}, "clouds": {"all": 100}, "dt": 1680855926, "sys": {"type": 2, "id": 2011597, "country": "CA", "sunrise": 1680874633, "sunset": 1680922297}, "timezone": -25200, "id": 6173331, "name": "Vancouver", "cod": 200}{"coord": {"lon": -58.3772, "lat": -34.6132}, "weather": [{"id": 800, "main": "Clear", "description": "clear sky", "icon": "01n"}], "base": "stations", "main": {"temp": 18.75, "feels_like": 18.77, "temp_min": 16.11, "temp_max": 19.85, "pressure": 1019, "humidity": 80}, "visibility": 10000, "wind": {"speed": 4.12, "deg": 20}, "clouds": {"all": 0}, "dt": 1680855665, "sys": {"type": 1, "id": 8224, "country": "AR", "sunrise": 1680862214, "sunset": 1680903646}, "timezone": -10800, "id": 3435910, "name": "Buenos Aires", "cod": 200}{"coord": {"lon": -74.006, "lat": 40.7143}, "weather": [{"id": 804, "main": "Clouds", "description": "overcast clouds", "icon": "04n"}], "base": "stations", "main": {"temp": 13.5, "feels_like": 11.79, "temp_min": 12.21, "temp_max": 14.19, "pressure": 1024, "humidity": 34}, "visibility": 10000, "wind": {"speed": 6.17, "deg": 330, "gust": 10.29}, "clouds": {"all": 100}, "dt": 1680856100, "sys": {"type": 2, "id": 2008101, "country": "US", "sunrise": 1680863402, "sunset": 1680909958}, "timezone": -14400, "id": 5128581, "name": "New York", "cod": 200}{"coord": {"lon": -123.1193, "lat": 49.2497}, "weather": [{"id": 501, "main": "Rain", "description": "moderate rain", "icon": "10n"}], "base": "stations", "main": {"temp": 9.32, "feels_like": 6.32, "temp_min": 7.68, "temp_max": 10.57, "pressure": 1005, "humidity": 93}, "visibility": 10000, "wind": {"speed": 6.17, "deg": 100}, "rain": {"1h": 3.26}, "clouds": {"all": 100}, "dt": 1680856241, "sys": {"type": 2, "id": 2011597, "country": "CA", "sunrise": 1680874633, "sunset": 1680922297}, "timezone": -25200, "id": 6173331, "name": "Vancouver", "cod": 200}{"coord": {"lon": -58.3772, "lat": -34.6132}, "weather": [{"id": 800, "main": "Clear", "description": "clear sky", "icon": "01n"}], "base": "stations", "main": {"temp": 18.7, "feels_like": 18.71, "temp_min": 16.11, "temp_max": 19.85, "pressure": 1019, "humidity": 80}, "visibility": 10000, "wind": {"speed": 4.12, "deg": 20}, "clouds": {"all": 0}, "dt": 1680856063, "sys": {"type": 1, "id": 8224, "country": "AR", "sunrise": 1680862214, "sunset": 1680903646}, "timezone": -10800, "id": 3435910, "name": "Buenos Aires", "cod": 200}{"coord": {"lon": -75.4999, "lat": 43.0004}, "weather": [{"id": 804, "main": "Clouds", "description": "overcast clouds", "icon": "04n"}], "base": "stations", "main": {"temp": 2.89, "feels_like": -1.48, "temp_min": 0.38, "temp_max": 4.99, "pressure": 1024, "humidity": 73}, "visibility": 10000, "wind": {"speed": 5.35, "deg": 269, "gust": 14.39}, "clouds": {"all": 87}, "dt": 1680855920, "sys": {"type": 2, "id": 2007118, "country": "US", "sunrise": 1680863632, "sunset": 1680910445}, "timezone": -14400, "id": 5128638, "name": "New York", "cod": 200}{"coord": {"lon": -122.6615, "lat": 45.6387}, "weather": [{"id": 804, "main": "Clouds", "description": "overcast clouds", "icon": "04n"}], "base": "stations", "main": {"temp": 10.11, "feels_like": 9.63, "temp_min": 8.92, "temp_max": 11.16, "pressure": 1010, "humidity": 94}, "visibility": 10000, "wind": {"speed": 3.09, "deg": 110}, "clouds": {"all": 100}, "dt": 1680856257, "sys": {"type": 1, "id": 6207, "country": "US", "sunrise": 1680874774, "sunset": 1680921936}, "timezone": -25200, "id": 5814616, "name": "Vancouver", "cod": 200}{"coord": {"lon": -78.4975, "lat": -9.1242}, "weather": [{"id": 804, "main": "Clouds", "description": "overcast clouds", "icon": "04n"}], "base": "stations", "main": {"temp": 24.67, "feels_like": 25.23, "temp_min": 24.67, "temp_max": 24.67, "pressure": 1010, "humidity": 78, "sea_level": 1010, "grnd_level": 998}, "visibility": 10000, "wind": {"speed": 1.5, "deg": 169, "gust": 1.75}, "clouds": {"all": 100}, "dt": 1680856262, "sys": {"country": "PE", "sunrise": 1680866218, "sunset": 1680909298}, "timezone": -18000, "id": 6559994, "name": "Buenos Aires", "cod": 200}{"coord": {"lon": -75.4999, "lat": 43.0004}, "weather": [{"id": 804, "main": "Clouds", "description": "overcast clouds", "icon": "04n"}], "base": "stations", "main": {"temp": 3.04, "feels_like": -1.29, "temp_min": 0.38, "temp_max": 4.99, "pressure": 1024, "humidity": 73}, "visibility": 10000, "wind": {"speed": 5.35, "deg": 269, "gust": 14.39}, "clouds": {"all": 87}, "dt": 1680856168, "sys": {"type": 2, "id": 2007118, "country": "US", "sunrise": 1680863632, "sunset": 1680910445}, "timezone": -14400, "id": 5128638, "name": "New York", "cod": 200}{"coord": {"lon": -122.6615, "lat": 45.6387}, "weather": [{"id": 804, "main": "Clouds", "description": "overcast clouds", "icon": "04n"}], "base": "stations", "main": {"temp": 10.11, "feels_like": 9.63, "temp_min": 8.92, "temp_max": 11.16, "pressure": 1010, "humidity": 94}, "visibility": 10000, "wind": {"speed": 3.09, "deg": 110}, "clouds": {"all": 100}, "dt": 1680856272, "sys": {"type": 1, "id": 6207, "country": "US", "sunrise": 1680874774, "sunset": 1680921936}, "timezone": -25200, "id": 5814616, "name": "Vancouver", "cod": 200}{"coord": {"lon": -78.4975, "lat": -9.1242}, "weather": [{"id": 804, "main": "Clouds", "description": "overcast clouds", "icon": "04n"}], "base": "stations", "main": {"temp": 24.67, "feels_like": 25.23, "temp_min": 24.67, "temp_max": 24.67, "pressure": 1010, "humidity": 78, "sea_level": 1010, "grnd_level": 998}, "visibility": 10000, "wind": {"speed": 1.5, "deg": 169, "gust": 1.75}, "clouds": {"all": 100}, "dt": 1680856278, "sys": {"country": "PE", "sunrise": 1680866218, "sunset": 1680909298}, "timezone": -18000, "id": 6559994, "name": "Buenos Aires", "cod": 200}{"coord": {"lon": -74.006, "lat": 40.7143}, "weather": [{"id": 800, "main": "Clear", "description": "clear sky", "icon": "01n"}], "base": "stations", "main": {"temp": 4.98, "feels_like": 2.73, "temp_min": 1.4, "temp_max": 6.79, "pressure": 1032, "humidity": 78}, "visibility": 10000, "wind": {"speed": 2.68, "deg": 360, "gust": 5.36}, "clouds": {"all": 0}, "dt": 1681113469, "sys": {"type": 2, "id": 2039034, "country": "US", "sunrise": 1681122314, "sunset": 1681169346}, "timezone": -14400, "id": 5128581, "name": "New York", "cod": 200}{"coord": {"lon": -123.1193, "lat": 49.2497}, "weather": [{"id": 803, "main": "Clouds", "description": "broken clouds", "icon": "04n"}], "base": "stations", "main": {"temp": 6.25, "feels_like": 4.77, "temp_min": 5.01, "temp_max": 7.42, "pressure": 1020, "humidity": 95}, "visibility": 10000, "wind": {"speed": 2.06, "deg": 90}, "clouds": {"all": 75}, "dt": 1681113444, "sys": {"type": 2, "id": 2011597, "country": "CA", "sunrise": 1681133460, "sunset": 1681181769}, "timezone": -25200, "id": 6173331, "name": "Vancouver", "cod": 200}{"coord": {"lon": -58.3772, "lat": -34.6132}, "weather": [{"id": 800, "main": "Clear", "description": "clear sky", "icon": "01n"}], "base": "stations", "main": {"temp": 18.68, "feels_like": 18.74, "temp_min": 14.82, "temp_max": 19.88, "pressure": 1017, "humidity": 82}, "visibility": 10000, "wind": {"speed": 1.03, "deg": 0}, "clouds": {"all": 0}, "dt": 1681113362, "sys": {"type": 1, "id": 8224, "country": "AR", "sunrise": 1681121552, "sunset": 1681162607}, "timezone": -10800, "id": 3435910, "name": "Buenos Aires", "cod": 200}{"coord": {"lon": -74.006, "lat": 40.7143}, "weather": [{"id": 800, "main": "Clear", "description": "clear sky", "icon": "01n"}], "base": "stations", "main": {"temp": 4.98, "feels_like": 2.73, "temp_min": 1.4, "temp_max": 6.79, "pressure": 1032, "humidity": 78}, "visibility": 10000, "wind": {"speed": 2.68, "deg": 360, "gust": 5.36}, "clouds": {"all": 0}, "dt": 1681113469, "sys": {"type": 2, "id": 2039034, "country": "US", "sunrise": 1681122314, "sunset": 1681169346}, "timezone": -14400, "id": 5128581, "name": "New York", "cod": 200}{"coord": {"lon": -123.1193, "lat": 49.2497}, "weather": [{"id": 803, "main": "Clouds", "description": "broken clouds", "icon": "04n"}], "base": "stations", "main": {"temp": 6.25, "feels_like": 4.77, "temp_min": 5.01, "temp_max": 7.42, "pressure": 1020, "humidity": 95}, "visibility": 10000, "wind": {"speed": 2.06, "deg": 90}, "clouds": {"all": 75}, "dt": 1681113488, "sys": {"type": 2, "id": 2011597, "country": "CA", "sunrise": 1681133460, "sunset": 1681181769}, "timezone": -25200, "id": 6173331, "name": "Vancouver", "cod": 200}{"coord": {"lon": -58.3772, "lat": -34.6132}, "weather": [{"id": 800, "main": "Clear", "description": "clear sky", "icon": "01n"}], "base": "stations", "main": {"temp": 18.39, "feels_like": 18.48, "temp_min": 16.07, "temp_max": 19.88, "pressure": 1018, "humidity": 84}, "visibility": 10000, "wind": {"speed": 2.24, "deg": 308, "gust": 2.59}, "clouds": {"all": 7}, "dt": 1681113603, "sys": {"type": 2, "id": 2031595, "country": "AR", "sunrise": 1681121552, "sunset": 1681162607}, "timezone": -10800, "id": 3435910, "name": "Buenos Aires", "cod": 200}{"coord": {"lon": -75.4999, "lat": 43.0004}, "weather": [{"id": 801, "main": "Clouds", "description": "few clouds", "icon": "02n"}], "base": "stations", "main": {"temp": -0.64, "feels_like": -2.28, "temp_min": -3.02, "temp_max": 3.09, "pressure": 1029, "humidity": 71}, "visibility": 10000, "wind": {"speed": 1.38, "deg": 195, "gust": 1.3}, "clouds": {"all": 12}, "dt": 1681113434, "sys": {"type": 2, "id": 2007118, "country": "US", "sunrise": 1681122523, "sunset": 1681169853}, "timezone": -14400, "id": 5128638, "name": "New York", "cod": 200}{"coord": {"lon": -122.6615, "lat": 45.6387}, "weather": [{"id": 701, "main": "Mist", "description": "mist", "icon": "50n"}], "base": "stations", "main": {"temp": 10.58, "feels_like": 10.17, "temp_min": 9.07, "temp_max": 11.86, "pressure": 1020, "humidity": 95}, "visibility": 8047, "wind": {"speed": 2.06, "deg": 270}, "clouds": {"all": 100}, "dt": 1681113361, "sys": {"type": 1, "id": 6207, "country": "US", "sunrise": 1681133641, "sunset": 1681181369}, "timezone": -25200, "id": 5814616, "name": "Vancouver", "cod": 200}{"coord": {"lon": -78.4975, "lat": -9.1242}, "weather": [{"id": 803, "main": "Clouds", "description": "broken clouds", "icon": "04n"}], "base": "stations", "main": {"temp": 24.19, "feels_like": 24.75, "temp_min": 24.19, "temp_max": 24.19, "pressure": 1010, "humidity": 80, "sea_level": 1010, "grnd_level": 999}, "visibility": 10000, "wind": {"speed": 2.7, "deg": 173, "gust": 3.17}, "clouds": {"all": 79}, "dt": 1681113637, "sys": {"country": "PE", "sunrise": 1681125411, "sunset": 1681168404}, "timezone": -18000, "id": 6559994, "name": "Buenos Aires", "cod": 200}{"coord": {"lon": -75.4999, "lat": 43.0004}, "weather": [{"id": 801, "main": "Clouds", "description": "few clouds", "icon": "02n"}], "base": "stations", "main": {"temp": -0.92, "feels_like": -0.92, "temp_min": -3.93, "temp_max": 3.09, "pressure": 1029, "humidity": 72}, "visibility": 10000, "wind": {"speed": 0.45, "deg": 155, "gust": 0.89}, "clouds": {"all": 12}, "dt": 1681113776, "sys": {"type": 2, "id": 2007118, "country": "US", "sunrise": 1681122523, "sunset": 1681169853}, "timezone": -14400, "id": 5128638, "name": "New York", "cod": 200}{"coord": {"lon": -122.6615, "lat": 45.6387}, "weather": [{"id": 501, "main": "Rain", "description": "moderate rain", "icon": "10n"}, {"id": 701, "main": "Mist", "description": "mist", "icon": "50n"}], "base": "stations", "main": {"temp": 10.43, "feels_like": 10.01, "temp_min": 9.07, "temp_max": 11.74, "pressure": 1020, "humidity": 95}, "visibility": 4828, "wind": {"speed": 1.54, "deg": 360}, "rain": {"1h": 1.33}, "clouds": {"all": 100}, "dt": 1681113781, "sys": {"type": 1, "id": 6207, "country": "US", "sunrise": 1681133641, "sunset": 1681181369}, "timezone": -25200, "id": 5814616, "name": "Vancouver", "cod": 200}{"coord": {"lon": -78.4975, "lat": -9.1242}, "weather": [{"id": 803, "main": "Clouds", "description": "broken clouds", "icon": "04n"}], "base": "stations", "main": {"temp": 24.19, "feels_like": 24.75, "temp_min": 24.19, "temp_max": 24.19, "pressure": 1010, "humidity": 80, "sea_level": 1010, "grnd_level": 999}, "visibility": 10000, "wind": {"speed": 2.7, "deg": 173, "gust": 3.17}, "clouds": {"all": 79}, "dt": 1681113786, "sys": {"country": "PE", "sunrise": 1681125411, "sunset": 1681168404}, "timezone": -18000, "id": 6559994, "name": "Buenos Aires", "cod": 200}{"coord": {"lon": -74.006, "lat": 40.7143}, "weather": [{"id": 800, "main": "Clear", "description": "clear sky", "icon": "01n"}], "base": "stations", "main": {"temp": 9.63, "feels_like": 6.99, "temp_min": 6.19, "temp_max": 11.76, "pressure": 1024, "humidity": 52}, "visibility": 10000, "wind": {"speed": 5.36, "deg": 360, "gust": 7.6}, "clouds": {"all": 0}, "dt": 1681200706, "sys": {"type": 2, "id": 2008101, "country": "US", "sunrise": 1681208619, "sunset": 1681255808}, "timezone": -14400, "id": 5128581, "name": "New York", "cod": 200}{"coord": {"lon": -123.1193, "lat": 49.2497}, "weather": [{"id": 804, "main": "Clouds", "description": "overcast clouds", "icon": "04n"}], "base": "stations", "main": {"temp": 6.37, "feels_like": 6.37, "temp_min": 5.16, "temp_max": 7.57, "pressure": 1011, "humidity": 95}, "visibility": 10000, "wind": {"speed": 0.89, "deg": 33, "gust": 2.24}, "clouds": {"all": 100}, "dt": 1681200715, "sys": {"type": 2, "id": 2011597, "country": "CA", "sunrise": 1681219737, "sunset": 1681268260}, "timezone": -25200, "id": 6173331, "name": "Vancouver", "cod": 200}{"coord": {"lon": -58.3772, "lat": -34.6132}, "weather": [{"id": 800, "main": "Clear", "description": "clear sky", "icon": "01n"}], "base": "stations", "main": {"temp": 19.98, "feels_like": 20.38, "temp_min": 17.78, "temp_max": 20.85, "pressure": 1013, "humidity": 90}, "visibility": 10000, "wind": {"speed": 1.54, "deg": 60}, "clouds": {"all": 0}, "dt": 1681201203, "sys": {"type": 1, "id": 8224, "country": "AR", "sunrise": 1681207998, "sunset": 1681248929}, "timezone": -10800, "id": 3435910, "name": "Buenos Aires", "cod": 200}{"coord": {"lon": -74.006, "lat": 40.7143}, "weather": [{"id": 800, "main": "Clear", "description": "clear sky", "icon": "01n"}], "base": "stations", "main": {"temp": 9.63, "feels_like": 7.34, "temp_min": 6.02, "temp_max": 11.76, "pressure": 1023, "humidity": 52}, "visibility": 10000, "wind": {"speed": 4.47, "deg": 360, "gust": 8.05}, "clouds": {"all": 0}, "dt": 1681201015, "sys": {"type": 2, "id": 2039034, "country": "US", "sunrise": 1681208619, "sunset": 1681255808}, "timezone": -14400, "id": 5128581, "name": "New York", "cod": 200}{"coord": {"lon": -123.1193, "lat": 49.2497}, "weather": [{"id": 804, "main": "Clouds", "description": "overcast clouds", "icon": "04n"}], "base": "stations", "main": {"temp": 6.2, "feels_like": 3.56, "temp_min": 5.01, "temp_max": 7.57, "pressure": 1011, "humidity": 95}, "visibility": 10000, "wind": {"speed": 3.6, "deg": 100}, "clouds": {"all": 100}, "dt": 1681201293, "sys": {"type": 2, "id": 2011597, "country": "CA", "sunrise": 1681219737, "sunset": 1681268260}, "timezone": -25200, "id": 6173331, "name": "Vancouver", "cod": 200}{"coord": {"lon": -58.3772, "lat": -34.6132}, "weather": [{"id": 800, "main": "Clear", "description": "clear sky", "icon": "01n"}], "base": "stations", "main": {"temp": 19.98, "feels_like": 20.38, "temp_min": 17.78, "temp_max": 20.85, "pressure": 1013, "humidity": 90}, "visibility": 10000, "wind": {"speed": 1.54, "deg": 60}, "clouds": {"all": 0}, "dt": 1681200930, "sys": {"type": 1, "id": 8224, "country": "AR", "sunrise": 1681207998, "sunset": 1681248929}, "timezone": -10800, "id": 3435910, "name": "Buenos Aires", "cod": 200}{"coord": {"lon": -75.4999, "lat": 43.0004}, "weather": [{"id": 804, "main": "Clouds", "description": "overcast clouds", "icon": "04n"}], "base": "stations", "main": {"temp": 3.51, "feels_like": 1.59, "temp_min": 0.07, "temp_max": 9.76, "pressure": 1023, "humidity": 75, "sea_level": 1023, "grnd_level": 987}, "visibility": 10000, "wind": {"speed": 2.04, "deg": 208, "gust": 1.9}, "clouds": {"all": 99}, "dt": 1681201007, "sys": {"type": 2, "id": 2002432, "country": "US", "sunrise": 1681208822, "sunset": 1681256323}, "timezone": -14400, "id": 5128638, "name": "New York", "cod": 200}{"coord": {"lon": -122.6615, "lat": 45.6387}, "weather": [{"id": 500, "main": "Rain", "description": "light rain", "icon": "10n"}], "base": "stations", "main": {"temp": 4.85, "feels_like": 4.85, "temp_min": 3.85, "temp_max": 5.77, "pressure": 1016, "humidity": 95}, "visibility": 10000, "wind": {"speed": 0.45, "deg": 153, "gust": 0.89}, "rain": {"1h": 0.64}, "clouds": {"all": 100}, "dt": 1681200996, "sys": {"type": 1, "id": 6207, "country": "US", "sunrise": 1681219931, "sunset": 1681267847}, "timezone": -25200, "id": 5814616, "name": "Vancouver", "cod": 200}{"coord": {"lon": -78.4975, "lat": -9.1242}, "weather": [{"id": 804, "main": "Clouds", "description": "overcast clouds", "icon": "04n"}], "base": "stations", "main": {"temp": 24.09, "feels_like": 24.72, "temp_min": 24.09, "temp_max": 24.09, "pressure": 1010, "humidity": 83, "sea_level": 1010, "grnd_level": 998}, "visibility": 10000, "wind": {"speed": 2.53, "deg": 191, "gust": 2.58}, "clouds": {"all": 94}, "dt": 1681201314, "sys": {"country": "PE", "sunrise": 1681211809, "sunset": 1681254774}, "timezone": -18000, "id": 6559994, "name": "Buenos Aires", "cod": 200}{"coord": {"lon": -75.4999, "lat": 43.0004}, "weather": [{"id": 804, "main": "Clouds", "description": "overcast clouds", "icon": "04n"}], "base": "stations", "main": {"temp": 3.51, "feels_like": 1.59, "temp_min": 0.07, "temp_max": 9.76, "pressure": 1023, "humidity": 75, "sea_level": 1023, "grnd_level": 987}, "visibility": 10000, "wind": {"speed": 2.04, "deg": 208, "gust": 1.9}, "clouds": {"all": 99}, "dt": 1681201220, "sys": {"type": 2, "id": 2002432, "country": "US", "sunrise": 1681208822, "sunset": 1681256323}, "timezone": -14400, "id": 5128638, "name": "New York", "cod": 200}{"coord": {"lon": -122.6615, "lat": 45.6387}, "weather": [{"id": 500, "main": "Rain", "description": "light rain", "icon": "10n"}], "base": "stations", "main": {"temp": 4.86, "feels_like": 4.86, "temp_min": 3.87, "temp_max": 5.77, "pressure": 1016, "humidity": 95}, "visibility": 10000, "wind": {"speed": 0, "deg": 0}, "rain": {"1h": 0.8}, "clouds": {"all": 100}, "dt": 1681201324, "sys": {"type": 1, "id": 6207, "country": "US", "sunrise": 1681219931, "sunset": 1681267847}, "timezone": -25200, "id": 5814616, "name": "Vancouver", "cod": 200}{"coord": {"lon": -78.4975, "lat": -9.1242}, "weather": [{"id": 804, "main": "Clouds", "description": "overcast clouds", "icon": "04n"}], "base": "stations", "main": {"temp": 24.09, "feels_like": 24.72, "temp_min": 24.09, "temp_max": 24.09, "pressure": 1010, "humidity": 83, "sea_level": 1010, "grnd_level": 998}, "visibility": 10000, "wind": {"speed": 2.53, "deg": 191, "gust": 2.58}, "clouds": {"all": 94}, "dt": 1681201329, "sys": {"country": "PE", "sunrise": 1681211809, "sunset": 1681254774}, "timezone": -18000, "id": 6559994, "name": "Buenos Aires", "cod": 200}{"coord": {"lon": -74.006, "lat": 40.7143}, "weather": [{"id": 800, "main": "Clear", "description": "clear sky", "icon": "01n"}], "base": "stations", "main": {"temp": 18.15, "feels_like": 16.86, "temp_min": 16.1, "temp_max": 20.09, "pressure": 1012, "humidity": 32}, "visibility": 10000, "wind": {"speed": 8.49, "deg": 360, "gust": 13.41}, "clouds": {"all": 0}, "dt": 1681287302, "sys": {"type": 2, "id": 2008101, "country": "US", "sunrise": 1681294925, "sunset": 1681342271}, "timezone": -14400, "id": 5128581, "name": "New York", "cod": 200}{"coord": {"lon": -123.1193, "lat": 49.2497}, "weather": [{"id": 802, "main": "Clouds", "description": "scattered clouds", "icon": "03n"}], "base": "stations", "main": {"temp": 3.38, "feels_like": 1.23, "temp_min": 0.71, "temp_max": 6.57, "pressure": 1016, "humidity": 85}, "visibility": 10000, "wind": {"speed": 2.24, "deg": 312, "gust": 5.81}, "clouds": {"all": 29}, "dt": 1681287115, "sys": {"type": 2, "id": 2011597, "country": "CA", "sunrise": 1681306015, "sunset": 1681354751}, "timezone": -25200, "id": 6173331, "name": "Vancouver", "cod": 200}{"coord": {"lon": -58.3772, "lat": -34.6132}, "weather": [{"id": 804, "main": "Clouds", "description": "overcast clouds", "icon": "04n"}], "base": "stations", "main": {"temp": 18.2, "feels_like": 18.27, "temp_min": 15.94, "temp_max": 19.43, "pressure": 1011, "humidity": 84}, "visibility": 9000, "wind": {"speed": 2.06, "deg": 0}, "clouds": {"all": 100}, "dt": 1681287312, "sys": {"type": 1, "id": 8224, "country": "AR", "sunrise": 1681294445, "sunset": 1681335251}, "timezone": -10800, "id": 3435910, "name": "Buenos Aires", "cod": 200}{"coord": {"lon": -74.006, "lat": 40.7143}, "weather": [{"id": 800, "main": "Clear", "description": "clear sky", "icon": "01n"}], "base": "stations", "main": {"temp": 18.16, "feels_like": 16.87, "temp_min": 16.27, "temp_max": 20.09, "pressure": 1012, "humidity": 32}, "visibility": 10000, "wind": {"speed": 9.39, "deg": 360, "gust": 12.07}, "clouds": {"all": 0}, "dt": 1681287830, "sys": {"type": 2, "id": 2008101, "country": "US", "sunrise": 1681294925, "sunset": 1681342271}, "timezone": -14400, "id": 5128581, "name": "New York", "cod": 200}{"coord": {"lon": -123.1193, "lat": 49.2497}, "weather": [{"id": 802, "main": "Clouds", "description": "scattered clouds", "icon": "03n"}], "base": "stations", "main": {"temp": 3.44, "feels_like": 0.99, "temp_min": 0.71, "temp_max": 6.57, "pressure": 1017, "humidity": 81}, "visibility": 10000, "wind": {"speed": 2.57, "deg": 20}, "clouds": {"all": 40}, "dt": 1681287603, "sys": {"type": 2, "id": 2011597, "country": "CA", "sunrise": 1681306015, "sunset": 1681354751}, "timezone": -25200, "id": 6173331, "name": "Vancouver", "cod": 200}{"coord": {"lon": -58.3772, "lat": -34.6132}, "weather": [{"id": 804, "main": "Clouds", "description": "overcast clouds", "icon": "04n"}], "base": "stations", "main": {"temp": 18.2, "feels_like": 18.27, "temp_min": 15.94, "temp_max": 19.43, "pressure": 1011, "humidity": 84}, "visibility": 9000, "wind": {"speed": 2.06, "deg": 0}, "clouds": {"all": 100}, "dt": 1681287312, "sys": {"type": 1, "id": 8224, "country": "AR", "sunrise": 1681294445, "sunset": 1681335251}, "timezone": -10800, "id": 3435910, "name": "Buenos Aires", "cod": 200}{"coord": {"lon": -75.4999, "lat": 43.0004}, "weather": [{"id": 804, "main": "Clouds", "description": "overcast clouds", "icon": "04n"}], "base": "stations", "main": {"temp": 11.39, "feels_like": 10.65, "temp_min": 11.07, "temp_max": 12.16, "pressure": 1012, "humidity": 79, "sea_level": 1012, "grnd_level": 977}, "visibility": 10000, "wind": {"speed": 5.72, "deg": 298, "gust": 13.99}, "clouds": {"all": 100}, "dt": 1681287320, "sys": {"type": 1, "id": 5681, "country": "US", "sunrise": 1681295121, "sunset": 1681342792}, "timezone": -14400, "id": 5128638, "name": "New York", "cod": 200}{"coord": {"lon": -122.6615, "lat": 45.6387}, "weather": [{"id": 804, "main": "Clouds", "description": "overcast clouds", "icon": "04n"}], "base": "stations", "main": {"temp": 5.14, "feels_like": 5.14, "temp_min": 3.6, "temp_max": 6.43, "pressure": 1015, "humidity": 84}, "visibility": 10000, "wind": {"speed": 0.89, "deg": 101, "gust": 1.34}, "clouds": {"all": 100}, "dt": 1681287729, "sys": {"type": 2, "id": 2041185, "country": "US", "sunrise": 1681306222, "sunset": 1681354325}, "timezone": -25200, "id": 5814616, "name": "Vancouver", "cod": 200}{"coord": {"lon": -78.4975, "lat": -9.1242}, "weather": [{"id": 804, "main": "Clouds", "description": "overcast clouds", "icon": "04n"}], "base": "stations", "main": {"temp": 23.68, "feels_like": 24.3, "temp_min": 23.68, "temp_max": 23.68, "pressure": 1010, "humidity": 84, "sea_level": 1010, "grnd_level": 998}, "visibility": 10000, "wind": {"speed": 1.93, "deg": 180, "gust": 1.98}, "clouds": {"all": 100}, "dt": 1681287916, "sys": {"country": "PE", "sunrise": 1681298208, "sunset": 1681341144}, "timezone": -18000, "id": 6559994, "name": "Buenos Aires", "cod": 200}{"coord": {"lon": -75.4999, "lat": 43.0004}, "weather": [{"id": 804, "main": "Clouds", "description": "overcast clouds", "icon": "04n"}], "base": "stations", "main": {"temp": 11.48, "feels_like": 10.25, "temp_min": 11.07, "temp_max": 12.16, "pressure": 1012, "humidity": 60, "sea_level": 1012, "grnd_level": 977}, "visibility": 10000, "wind": {"speed": 5.72, "deg": 298, "gust": 13.99}, "clouds": {"all": 100}, "dt": 1681287813, "sys": {"type": 2, "id": 2002432, "country": "US", "sunrise": 1681295121, "sunset": 1681342792}, "timezone": -14400, "id": 5128638, "name": "New York", "cod": 200}{"coord": {"lon": -122.6615, "lat": 45.6387}, "weather": [{"id": 804, "main": "Clouds", "description": "overcast clouds", "icon": "04n"}], "base": "stations", "main": {"temp": 5.13, "feels_like": 4.31, "temp_min": 3.58, "temp_max": 6.43, "pressure": 1015, "humidity": 84}, "visibility": 10000, "wind": {"speed": 1.34, "deg": 83, "gust": 2.24}, "clouds": {"all": 100}, "dt": 1681287927, "sys": {"type": 2, "id": 2041185, "country": "US", "sunrise": 1681306222, "sunset": 1681354325}, "timezone": -25200, "id": 5814616, "name": "Vancouver", "cod": 200}{"coord": {"lon": -78.4975, "lat": -9.1242}, "weather": [{"id": 804, "main": "Clouds", "description": "overcast clouds", "icon": "04n"}], "base": "stations", "main": {"temp": 23.68, "feels_like": 24.3, "temp_min": 23.68, "temp_max": 23.68, "pressure": 1010, "humidity": 84, "sea_level": 1010, "grnd_level": 998}, "visibility": 10000, "wind": {"speed": 1.93, "deg": 180, "gust": 1.98}, "clouds": {"all": 100}, "dt": 1681287933, "sys": {"country": "PE", "sunrise": 1681298208, "sunset": 1681341144}, "timezone": -18000, "id": 6559994, "name": "Buenos Aires", "cod": 200}{"coord": {"lon": -74.006, "lat": 40.7143}, "weather": [{"id": 800, "main": "Clear", "description": "clear sky", "icon": "01n"}], "base": "stations", "main": {"temp": 17.75, "feels_like": 16.91, "temp_min": 13.74, "temp_max": 20.15, "pressure": 1012, "humidity": 51}, "visibility": 10000, "wind": {"speed": 2.68, "deg": 360, "gust": 4.47}, "clouds": {"all": 0}, "dt": 1681376099, "sys": {"type": 2, "id": 2008101, "country": "US", "sunrise": 1681381231, "sunset": 1681428734}, "timezone": -14400, "id": 5128581, "name": "New York", "cod": 200}{"coord": {"lon": -123.1193, "lat": 49.2497}, "weather": [{"id": 804, "main": "Clouds", "description": "overcast clouds", "icon": "04n"}], "base": "stations", "main": {"temp": 4.17, "feels_like": 1.1, "temp_min": 1.88, "temp_max": 5.13, "pressure": 1016, "humidity": 85}, "visibility": 10000, "wind": {"speed": 3.58, "deg": 90}, "clouds": {"all": 100}, "dt": 1681376807, "sys": {"type": 2, "id": 2011597, "country": "CA", "sunrise": 1681392293, "sunset": 1681441242}, "timezone": -25200, "id": 6173331, "name": "Vancouver", "cod": 200}{"coord": {"lon": -58.3772, "lat": -34.6132}, "weather": [{"id": 800, "main": "Clear", "description": "clear sky", "icon": "01n"}], "base": "stations", "main": {"temp": 11.68, "feels_like": 10.71, "temp_min": 8.94, "temp_max": 12.85, "pressure": 1017, "humidity": 69}, "visibility": 10000, "wind": {"speed": 3.6, "deg": 170}, "clouds": {"all": 0}, "dt": 1681376365, "sys": {"type": 1, "id": 8224, "country": "AR", "sunrise": 1681380891, "sunset": 1681421574}, "timezone": -10800, "id": 3435910, "name": "Buenos Aires", "cod": 200}{"coord": {"lon": -74.006, "lat": 40.7143}, "weather": [{"id": 800, "main": "Clear", "description": "clear sky", "icon": "01n"}], "base": "stations", "main": {"temp": 17.78, "feels_like": 16.89, "temp_min": 12.73, "temp_max": 21.2, "pressure": 1012, "humidity": 49}, "visibility": 10000, "wind": {"speed": 2.24, "deg": 360, "gust": 4.02}, "clouds": {"all": 0}, "dt": 1681376783, "sys": {"type": 2, "id": 2008101, "country": "US", "sunrise": 1681381231, "sunset": 1681428734}, "timezone": -14400, "id": 5128581, "name": "New York", "cod": 200}{"coord": {"lon": -123.1193, "lat": 49.2497}, "weather": [{"id": 804, "main": "Clouds", "description": "overcast clouds", "icon": "04n"}], "base": "stations", "main": {"temp": 4.43, "feels_like": 1.42, "temp_min": 1.88, "temp_max": 6.31, "pressure": 1016, "humidity": 85}, "visibility": 10000, "wind": {"speed": 3.58, "deg": 90}, "clouds": {"all": 100}, "dt": 1681376410, "sys": {"type": 2, "id": 2011597, "country": "CA", "sunrise": 1681392293, "sunset": 1681441242}, "timezone": -25200, "id": 6173331, "name": "Vancouver", "cod": 200}{"coord": {"lon": -58.3772, "lat": -34.6132}, "weather": [{"id": 804, "main": "Clouds", "description": "overcast clouds", "icon": "04n"}], "base": "stations", "main": {"temp": 11.29, "feels_like": 10.38, "temp_min": 10, "temp_max": 12.21, "pressure": 1019, "humidity": 73, "sea_level": 1019, "grnd_level": 1015}, "visibility": 10000, "wind": {"speed": 5.77, "deg": 178, "gust": 8.85}, "clouds": {"all": 100}, "dt": 1681376447, "sys": {"type": 2, "id": 2008409, "country": "AR", "sunrise": 1681380891, "sunset": 1681421574}, "timezone": -10800, "id": 3435910, "name": "Buenos Aires", "cod": 200}{"coord": {"lon": -75.4999, "lat": 43.0004}, "weather": [{"id": 800, "main": "Clear", "description": "clear sky", "icon": "01n"}], "base": "stations", "main": {"temp": 10.51, "feels_like": 9.6, "temp_min": 7.07, "temp_max": 13.22, "pressure": 1010, "humidity": 76}, "visibility": 10000, "wind": {"speed": 0.89, "deg": 235, "gust": 1.34}, "clouds": {"all": 0}, "dt": 1681376758, "sys": {"type": 2, "id": 2040403, "country": "US", "sunrise": 1681381421, "sunset": 1681429261}, "timezone": -14400, "id": 5128638, "name": "New York", "cod": 200}{"coord": {"lon": -122.6615, "lat": 45.6387}, "weather": [{"id": 803, "main": "Clouds", "description": "broken clouds", "icon": "04n"}], "base": "stations", "main": {"temp": 2.49, "feels_like": 2.49, "temp_min": -0.02, "temp_max": 4.73, "pressure": 1020, "humidity": 91}, "visibility": 10000, "wind": {"speed": 0, "deg": 0}, "clouds": {"all": 75}, "dt": 1681376946, "sys": {"type": 1, "id": 5321, "country": "US", "sunrise": 1681392513, "sunset": 1681440803}, "timezone": -25200, "id": 5814616, "name": "Vancouver", "cod": 200}{"coord": {"lon": -78.4975, "lat": -9.1242}, "weather": [{"id": 802, "main": "Clouds", "description": "scattered clouds", "icon": "03n"}], "base": "stations", "main": {"temp": 23.84, "feels_like": 24.47, "temp_min": 23.84, "temp_max": 23.84, "pressure": 1008, "humidity": 84, "sea_level": 1008, "grnd_level": 997}, "visibility": 10000, "wind": {"speed": 2.33, "deg": 181, "gust": 2.58}, "clouds": {"all": 49}, "dt": 1681376952, "sys": {"country": "PE", "sunrise": 1681384606, "sunset": 1681427514}, "timezone": -18000, "id": 6559994, "name": "Buenos Aires", "cod": 200}{"coord": {"lon": -75.4999, "lat": 43.0004}, "weather": [{"id": 800, "main": "Clear", "description": "clear sky", "icon": "01n"}], "base": "stations", "main": {"temp": 10.51, "feels_like": 9.6, "temp_min": 7.07, "temp_max": 13.22, "pressure": 1010, "humidity": 76}, "visibility": 10000, "wind": {"speed": 0.89, "deg": 235, "gust": 1.34}, "clouds": {"all": 0}, "dt": 1681376957, "sys": {"type": 2, "id": 2040403, "country": "US", "sunrise": 1681381421, "sunset": 1681429261}, "timezone": -14400, "id": 5128638, "name": "New York", "cod": 200}{"coord": {"lon": -122.6615, "lat": 45.6387}, "weather": [{"id": 803, "main": "Clouds", "description": "broken clouds", "icon": "04n"}], "base": "stations", "main": {"temp": 2.56, "feels_like": 2.56, "temp_min": -0.02, "temp_max": 5.12, "pressure": 1020, "humidity": 91}, "visibility": 10000, "wind": {"speed": 0, "deg": 0}, "clouds": {"all": 75}, "dt": 1681376780, "sys": {"type": 2, "id": 2041185, "country": "US", "sunrise": 1681392513, "sunset": 1681440803}, "timezone": -25200, "id": 5814616, "name": "Vancouver", "cod": 200}{"coord": {"lon": -78.4975, "lat": -9.1242}, "weather": [{"id": 802, "main": "Clouds", "description": "scattered clouds", "icon": "03n"}], "base": "stations", "main": {"temp": 23.84, "feels_like": 24.47, "temp_min": 23.84, "temp_max": 23.84, "pressure": 1008, "humidity": 84, "sea_level": 1008, "grnd_level": 997}, "visibility": 10000, "wind": {"speed": 2.33, "deg": 181, "gust": 2.58}, "clouds": {"all": 49}, "dt": 1681376967, "sys": {"country": "PE", "sunrise": 1681384606, "sunset": 1681427514}, "timezone": -18000, "id": 6559994, "name": "Buenos Aires", "cod": 200}{"coord": {"lon": -74.006, "lat": 40.7143}, "weather": [{"id": 800, "main": "Clear", "description": "clear sky", "icon": "01n"}], "base": "stations", "main": {"temp": 20.03, "feels_like": 19.26, "temp_min": 16.23, "temp_max": 23.41, "pressure": 1011, "humidity": 45}, "visibility": 10000, "wind": {"speed": 4.47, "deg": 360, "gust": 8.94}, "clouds": {"all": 0}, "dt": 1681459683, "sys": {"type": 2, "id": 2008101, "country": "US", "sunrise": 1681467538, "sunset": 1681515197}, "timezone": -14400, "id": 5128581, "name": "New York", "cod": 200}{"coord": {"lon": -123.1193, "lat": 49.2497}, "weather": [{"id": 801, "main": "Clouds", "description": "few clouds", "icon": "02n"}], "base": "stations", "main": {"temp": 3.19, "feels_like": 0.6, "temp_min": 1.59, "temp_max": 4.58, "pressure": 1015, "humidity": 90}, "visibility": 10000, "wind": {"speed": 2.68, "deg": 70}, "clouds": {"all": 20}, "dt": 1681460154, "sys": {"type": 2, "id": 2011597, "country": "CA", "sunrise": 1681478572, "sunset": 1681527733}, "timezone": -25200, "id": 6173331, "name": "Vancouver", "cod": 200}{"coord": {"lon": -58.3772, "lat": -34.6132}, "weather": [{"id": 804, "main": "Clouds", "description": "overcast clouds", "icon": "04n"}], "base": "stations", "main": {"temp": 10.58, "feels_like": 9.47, "temp_min": 8.32, "temp_max": 11.66, "pressure": 1020, "humidity": 68, "sea_level": 1020, "grnd_level": 1016}, "visibility": 10000, "wind": {"speed": 4.6, "deg": 149, "gust": 6.78}, "clouds": {"all": 86}, "dt": 1681459852, "sys": {"type": 2, "id": 2008409, "country": "AR", "sunrise": 1681467338, "sunset": 1681507897}, "timezone": -10800, "id": 3435910, "name": "Buenos Aires", "cod": 200}{"coord": {"lon": -74.006, "lat": 40.7143}, "weather": [{"id": 800, "main": "Clear", "description": "clear sky", "icon": "01n"}], "base": "stations", "main": {"temp": 20.01, "feels_like": 19.24, "temp_min": 16.23, "temp_max": 23.41, "pressure": 1011, "humidity": 45}, "visibility": 10000, "wind": {"speed": 4.47, "deg": 360, "gust": 8.94}, "clouds": {"all": 0}, "dt": 1681459870, "sys": {"type": 2, "id": 2008101, "country": "US", "sunrise": 1681467538, "sunset": 1681515197}, "timezone": -14400, "id": 5128581, "name": "New York", "cod": 200}{"coord": {"lon": -123.1193, "lat": 49.2497}, "weather": [{"id": 800, "main": "Clear", "description": "clear sky", "icon": "01n"}], "base": "stations", "main": {"temp": 3.16, "feels_like": 0.56, "temp_min": 1.27, "temp_max": 4.58, "pressure": 1015, "humidity": 89}, "visibility": 10000, "wind": {"speed": 2.68, "deg": 70}, "clouds": {"all": 10}, "dt": 1681459888, "sys": {"type": 2, "id": 2011597, "country": "CA", "sunrise": 1681478572, "sunset": 1681527733}, "timezone": -25200, "id": 6173331, "name": "Vancouver", "cod": 200}{"coord": {"lon": -58.3772, "lat": -34.6132}, "weather": [{"id": 800, "main": "Clear", "description": "clear sky", "icon": "01n"}], "base": "stations", "main": {"temp": 11.01, "feels_like": 9.89, "temp_min": 7.77, "temp_max": 11.85, "pressure": 1020, "humidity": 66}, "visibility": 10000, "wind": {"speed": 2.57, "deg": 160}, "clouds": {"all": 0}, "dt": 1681460177, "sys": {"type": 1, "id": 8224, "country": "AR", "sunrise": 1681467338, "sunset": 1681507897}, "timezone": -10800, "id": 3435910, "name": "Buenos Aires", "cod": 200}{"coord": {"lon": -75.4999, "lat": 43.0004}, "weather": [{"id": 804, "main": "Clouds", "description": "overcast clouds", "icon": "04n"}], "base": "stations", "main": {"temp": 12.26, "feels_like": 11.42, "temp_min": 8.07, "temp_max": 15.69, "pressure": 1012, "humidity": 72, "sea_level": 1012, "grnd_level": 978}, "visibility": 10000, "wind": {"speed": 1.19, "deg": 239, "gust": 1.11}, "clouds": {"all": 100}, "dt": 1681459610, "sys": {"type": 2, "id": 2011353, "country": "US", "sunrise": 1681467721, "sunset": 1681515731}, "timezone": -14400, "id": 5128638, "name": "New York", "cod": 200}{"coord": {"lon": -122.6615, "lat": 45.6387}, "weather": [{"id": 803, "main": "Clouds", "description": "broken clouds", "icon": "04n"}], "base": "stations", "main": {"temp": 5.07, "feels_like": 5.07, "temp_min": 2.34, "temp_max": 6.86, "pressure": 1014, "humidity": 85}, "visibility": 10000, "wind": {"speed": 0.72, "deg": 0, "gust": 0.91}, "clouds": {"all": 54}, "dt": 1681460187, "sys": {"type": 2, "id": 2041185, "country": "US", "sunrise": 1681478805, "sunset": 1681527281}, "timezone": -25200, "id": 5814616, "name": "Vancouver", "cod": 200}{"coord": {"lon": -78.4975, "lat": -9.1242}, "weather": [{"id": 804, "main": "Clouds", "description": "overcast clouds", "icon": "04n"}], "base": "stations", "main": {"temp": 24.64, "feels_like": 25.2, "temp_min": 24.64, "temp_max": 24.64, "pressure": 1008, "humidity": 78, "sea_level": 1008, "grnd_level": 997}, "visibility": 10000, "wind": {"speed": 2.28, "deg": 186, "gust": 2.44}, "clouds": {"all": 100}, "dt": 1681460192, "sys": {"country": "PE", "sunrise": 1681471005, "sunset": 1681513885}, "timezone": -18000, "id": 6559994, "name": "Buenos Aires", "cod": 200}{"coord": {"lon": -75.4999, "lat": 43.0004}, "weather": [{"id": 804, "main": "Clouds", "description": "overcast clouds", "icon": "04n"}], "base": "stations", "main": {"temp": 13.26, "feels_like": 12.1, "temp_min": 8.07, "temp_max": 15.69, "pressure": 1012, "humidity": 56, "sea_level": 1012, "grnd_level": 978}, "visibility": 10000, "wind": {"speed": 1.19, "deg": 239, "gust": 1.11}, "clouds": {"all": 100}, "dt": 1681460197, "sys": {"type": 2, "id": 2002432, "country": "US", "sunrise": 1681467721, "sunset": 1681515731}, "timezone": -14400, "id": 5128638, "name": "New York", "cod": 200}{"coord": {"lon": -122.6615, "lat": 45.6387}, "weather": [{"id": 803, "main": "Clouds", "description": "broken clouds", "icon": "04n"}], "base": "stations", "main": {"temp": 5.07, "feels_like": 5.07, "temp_min": 2.34, "temp_max": 6.86, "pressure": 1014, "humidity": 85}, "visibility": 10000, "wind": {"speed": 0.72, "deg": 0, "gust": 0.91}, "clouds": {"all": 54}, "dt": 1681460203, "sys": {"type": 2, "id": 2041185, "country": "US", "sunrise": 1681478805, "sunset": 1681527281}, "timezone": -25200, "id": 5814616, "name": "Vancouver", "cod": 200}{"coord": {"lon": -78.4975, "lat": -9.1242}, "weather": [{"id": 804, "main": "Clouds", "description": "overcast clouds", "icon": "04n"}], "base": "stations", "main": {"temp": 24.64, "feels_like": 25.2, "temp_min": 24.64, "temp_max": 24.64, "pressure": 1008, "humidity": 78, "sea_level": 1008, "grnd_level": 997}, "visibility": 10000, "wind": {"speed": 2.28, "deg": 186, "gust": 2.44}, "clouds": {"all": 100}, "dt": 1681460208, "sys": {"country": "PE", "sunrise": 1681471005, "sunset": 1681513885}, "timezone": -18000, "id": 6559994, "name": "Buenos Aires", "cod": 200}
