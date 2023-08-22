@@ -5,8 +5,7 @@ from pages.main_page import MainPage
 from pages.shopping_basket import ShoppingBasket
 from pages.sub_category_page import SubCategory
 import logging
-import pyscreenrec
-from utils.attachments import attach_screenshot, attach_logs, attach_recorded_video
+from utils.attachments import attach_screenshot, attach_logs
 
 
 
@@ -14,11 +13,7 @@ from utils.attachments import attach_screenshot, attach_logs, attach_recorded_vi
 class TestShoppingBasket:
     @allure.title('Check usual device price and price in basket')
     def testUsualPriceItemAndInBasket(self, driver):
-        start_time = time.time()
-        seconds = 0
-        recorder = pyscreenrec.ScreenRecorder()
         main_page = MainPage(driver, 'https://rozetka.com.ua/ua/')
-        recorder.start_recording('recording.mp4', 5)
         main_page.open()
         attach_screenshot()
         main_page.click_universal_category_link(driver, "Смартфони")
@@ -37,8 +32,6 @@ class TestShoppingBasket:
         shopping_basket_item_price = ShoppingBasket.getDevicePriceText(self, driver, 1)
         assert smartphone_price == shopping_basket_item_price, "Prices are not equals"
         ShoppingBasket.set_goods_count_value(self, driver, 3)
-        end_time = time.time()
-        attach_recorded_video(self, start_time, end_time, seconds, recorder)
         attach_screenshot()
         smartphone_price_multiply = (smartphone_price * 3)
         time.sleep(2)
@@ -47,11 +40,7 @@ class TestShoppingBasket:
 
     @allure.title('Check if item was added in basket and if empty basket if we remove item')
     def testAddGoodsInBasketAndCheckItEmpty(self, driver):
-        start_time = time.time()
-        seconds = 0
-        recorder = pyscreenrec.ScreenRecorder()
         main_page = MainPage(driver, 'https://rozetka.com.ua/ua/')
-        recorder.start_recording('recording.mp4', 5)
         main_page.open()
         attach_screenshot()
         main_page.click_universal_category_link(driver, "Смартфони")
@@ -61,8 +50,6 @@ class TestShoppingBasket:
         DeviceCategory.clickBuyButtonByIndex(self, driver, 1)
         attach_screenshot()
         DeviceCategory.clickOnShoppingBasketButton(self, driver)
-        end_time = time.time()
-        attach_recorded_video(self, start_time, end_time, seconds, recorder)
         attach_screenshot()
         assert ShoppingBasket.isBasketEmptyStatusTextPresent(self, driver) == False, \
             "Basket empty status text is presented"

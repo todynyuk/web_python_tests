@@ -7,10 +7,8 @@ from pages.shopping_basket import ShoppingBasket
 from pages.sub_category_page import SubCategory
 import pytest
 import logging
-from pytest_zebrunner import attach_test_artifact
-import pyscreenrec
-from utils.attachments import attach_screenshot, attach_logs, attach_recorded_video
-import os
+from utils.attachments import attach_screenshot, attach_logs
+
 
 
 @allure.suite('RozetkaFilters')
@@ -21,19 +19,12 @@ class TestRozetkaFilters:
         @pytest.mark.label("Search", "correct")
         @allure.title('Check correct search')
         def test_correct_search(self, driver):
-            start_time = time.time()
-            seconds = 0
-            recorder = pyscreenrec.ScreenRecorder()
             main_page = MainPage(driver, 'https://rozetka.com.ua/ua/')
-            recorder.start_recording('recording.mp4', 5)
             main_page.open()
             attach_screenshot()
             search_text = "Agm A9"
             main_page.set_search_input(search_text)
             main_page.click_search_button()
-            end_time = time.time()
-            attach_recorded_video(self, start_time, end_time, seconds, recorder)
-            attach_test_artifact("recording.mp4")
             attach_screenshot()
             attach_logs(logging.INFO, 'Test was successful')
             assert main_page.verify_is_search_brand_present_in_goods_title(search_text), "Search text not" \
@@ -42,18 +33,12 @@ class TestRozetkaFilters:
 
         @allure.title('Check incorrect search')
         def test_incorrect_search(self, driver):
-            start_time = time.time()
-            seconds = 0
-            recorder = pyscreenrec.ScreenRecorder()
             main_page = MainPage(driver, 'https://rozetka.com.ua/ua/')
-            recorder.start_recording('recording.mp4', 5)
             main_page.open()
             attach_screenshot()
             search_text = "hgvhvg"
             main_page.set_search_input(search_text)
             main_page.click_search_button()
-            end_time = time.time()
-            attach_recorded_video(self, start_time, end_time, seconds, recorder)
             attach_screenshot()
             attach_logs(logging.INFO, 'Test was successful')
             assert main_page.verify_wrong_search_request(), "Wrong request text isn`t presented"
@@ -64,12 +49,7 @@ class TestRozetkaFilters:
         @pytest.mark.skip(reason="Rozetka have problem with sorting by price")
         @allure.title('Check filter by BrandName,MaxCustomPrice,and available')
         def testFilterByBrandNameMaxCustomPriceAndAvailable(self, driver):
-            os.remove("recording.mp4")
-            start_time = time.time()
-            seconds = 0
-            recorder = pyscreenrec.ScreenRecorder()
             main_page = MainPage(driver, 'https://rozetka.com.ua/ua/')
-            recorder.start_recording('recording.mp4', 5)
             main_page.open()
             attach_screenshot()
             main_page.click_universal_category_link(driver, "Смартфони")
@@ -87,8 +67,6 @@ class TestRozetkaFilters:
             assert DeviceCategory.verify_is_search_think_present_in_goods_title(self, driver, "Sigma"), \
                 "Search result don`t contains chosen brand"
             DeviceCategory.click_check_box_filter(self, driver, "Є в наявності")
-            end_time = time.time()
-            attach_recorded_video(self, start_time, end_time, seconds, recorder)
             attach_screenshot()
             length = DeviceCategory.check_is_all_goods_available(self, driver, "Немає в наявності")
             assert length == 0, "One or more goods are not available"
@@ -96,11 +74,7 @@ class TestRozetkaFilters:
 
         @allure.title('Check filter by ram,matrix type and processor')
         def testVerifyItemRamMatrixTypeAndProcessor(self, driver):
-            start_time = time.time()
-            seconds = 0
-            recorder = pyscreenrec.ScreenRecorder()
             main_page = MainPage(driver, 'https://rozetka.com.ua/ua/')
-            recorder.start_recording('recording.mp4', 5)
             main_page.open()
             attach_screenshot()
             main_page.click_universal_category_link(driver, "Ноутбуки")
@@ -133,18 +107,12 @@ class TestRozetkaFilters:
                 "Matrix type text not contains in about device text"
             assert DevicePage.verifyChosenParamInAllCharacteristics(self, driver,
                                                                     "Моноблок"), "Computer type text not contains in description device text"
-            end_time = time.time()
-            attach_recorded_video(self, start_time, end_time, seconds, recorder)
             attach_logs(logging.INFO, 'Test was successful')
 
         @pytest.mark.skip(reason="Rozetka have problem with sorting by price")
         @allure.title('Check filter by price')
         def testVerifySortByPrice(self, driver):
-            start_time = time.time()
-            seconds = 0
-            recorder = pyscreenrec.ScreenRecorder()
             main_page = MainPage(driver, 'https://rozetka.com.ua/ua/')
-            recorder.start_recording('recording.mp4', 5)
             main_page.open()
             attach_screenshot()
             main_page.click_universal_category_link(driver, "Смартфони")
@@ -156,8 +124,6 @@ class TestRozetkaFilters:
             is_good_prices_low_to_hight = DeviceCategory.isAllGoodsSortedFromLowToHighPrice(self, driver)
             assert is_good_prices_low_to_hight, "One or more prices not sorted from low to high price"
             DeviceCategory.clickDropdownOption(self, driver, "Від дорогих до дешевих")
-            end_time = time.time()
-            attach_recorded_video(self, start_time, end_time, seconds, recorder)
             attach_screenshot()
             is_good_prices_hight_to_low = DeviceCategory.isAllGoodsSortedFromHighToLowPrice(self, driver)
             assert is_good_prices_hight_to_low, "One or more prices not sorted from high to low price"
@@ -165,11 +131,7 @@ class TestRozetkaFilters:
 
         @allure.title('Check adding items to basket and basket goods counter')
         def testAddingAndCountGoodsInBasket(self, driver):
-            start_time = time.time()
-            seconds = 0
-            recorder = pyscreenrec.ScreenRecorder()
             main_page = MainPage(driver, 'https://rozetka.com.ua/ua/')
-            recorder.start_recording('recording.mp4', 5)
             main_page.open()
             attach_screenshot()
             main_page.click_universal_category_link(driver, "Смартфони")
@@ -180,19 +142,13 @@ class TestRozetkaFilters:
                 "Cart Goods Counter Text isn't presented"
 
             DeviceCategory.clickBuyButtonByIndex(self, driver, 1)
-            end_time = time.time()
-            attach_recorded_video(self, start_time, end_time, seconds, recorder)
             assert DeviceCategory.isAddedToCartGoodsCounterTextPresent(self, driver) != False, \
                 "Cart Goods Counter Text isn't presented"
             attach_logs(logging.INFO, 'Test was successful')
 
         @allure.title('Check filter by BrandName')
         def test_choose_brands_and_check(self, driver):
-            start_time = time.time()
-            seconds = 0
-            recorder = pyscreenrec.ScreenRecorder()
             main_page = MainPage(driver, 'https://rozetka.com.ua/ua/')
-            recorder.start_recording('recording.mp4', 5)
             main_page.open()
             attach_screenshot()
             main_page.click_universal_category_link(driver, "Смартфони")
@@ -204,8 +160,6 @@ class TestRozetkaFilters:
             DeviceCategory.click_check_box_filter(self, driver, "Infinix")
             attach_screenshot()
             DeviceCategory.click_check_box_filter(self, driver, "Motorola")
-            end_time = time.time()
-            attach_recorded_video(self, start_time, end_time, seconds, recorder)
             attach_screenshot()
             assert DeviceCategory.check_chosen_filters_contains_chosen_brands(self, driver, "Huawei"), \
                 "List chosen parameters not contains this parameter"
@@ -219,12 +173,7 @@ class TestRozetkaFilters:
     class TestDevicePage:
         @allure.title('Check verify in chosen device ram and price')
         def testItemRamAndPrice(self, driver):
-            os.remove("recording.mp4")
-            start_time = time.time()
-            seconds = 0
-            recorder = pyscreenrec.ScreenRecorder()
             main_page = MainPage(driver, 'https://rozetka.com.ua/ua/')
-            recorder.start_recording('recording.mp4', 5)
             main_page.open()
             attach_screenshot()
             main_page.click_universal_category_link(driver, "Смартфони")
@@ -239,8 +188,6 @@ class TestRozetkaFilters:
             DeviceCategory.clickLinkMoreAboutDevice(self, driver, 1)
             attach_screenshot()
             short_characteristics = DevicePage.verify_device_short_characteristic(self, driver, 12)
-            end_time = time.time()
-            attach_recorded_video(self, start_time, end_time, seconds, recorder)
             attach_screenshot()
             chosen_device_price = DevicePage.get_chosen_product_price(self, driver)
             assert short_characteristics, "Short_characteristics don't contains chosen ram capacity"
@@ -251,11 +198,7 @@ class TestRozetkaFilters:
     class TestShoppingBasket:
         @allure.title('Check usual device price and price in basket')
         def testUsualPriceItemAndInBasket(self, driver):
-            start_time = time.time()
-            seconds = 0
-            recorder = pyscreenrec.ScreenRecorder()
             main_page = MainPage(driver, 'https://rozetka.com.ua/ua/')
-            recorder.start_recording('recording.mp4', 5)
             main_page.open()
             attach_screenshot()
             main_page.click_universal_category_link(driver, "Смартфони")
@@ -274,8 +217,6 @@ class TestRozetkaFilters:
             shopping_basket_item_price = ShoppingBasket.getDevicePriceText(self, driver, 1)
             assert smartphone_price == shopping_basket_item_price, "Prices are not equals"
             ShoppingBasket.set_goods_count_value(self, driver, 3)
-            end_time = time.time()
-            attach_recorded_video(self, start_time, end_time, seconds, recorder)
             attach_screenshot()
             smartphone_price_multiply = (smartphone_price * 3)
             time.sleep(2)
@@ -284,11 +225,7 @@ class TestRozetkaFilters:
 
         @allure.title('Check if item was added in basket and if empty basket if we remove item')
         def testAddGoodsInBasketAndCheckItEmpty(self, driver):
-            start_time = time.time()
-            seconds = 0
-            recorder = pyscreenrec.ScreenRecorder()
             main_page = MainPage(driver, 'https://rozetka.com.ua/ua/')
-            recorder.start_recording('recording.mp4', 5)
             main_page.open()
             attach_screenshot()
             main_page.click_universal_category_link(driver, "Смартфони")
@@ -298,8 +235,6 @@ class TestRozetkaFilters:
             DeviceCategory.clickBuyButtonByIndex(self, driver, 1)
             attach_screenshot()
             DeviceCategory.clickOnShoppingBasketButton(self, driver)
-            end_time = time.time()
-            attach_recorded_video(self, start_time, end_time, seconds, recorder)
             attach_screenshot()
             assert ShoppingBasket.isBasketEmptyStatusTextPresent(self, driver) == False, \
                 "Basket empty status text is presented"

@@ -16,7 +16,7 @@ class ShoppingBasket(object):
 
     def getDevicePriceText(self, driver, index):
         xpath = f"//p[@data-testid='cost'][{index}]"
-        return int(re.sub('\D', '', driver.find_element(By.XPATH, xpath).text))
+        return int(re.sub(r'\D', '', driver.find_element(By.XPATH, xpath).text))
 
     def set_goods_count_value(self, driver, count):
         universal_price_input_value = driver.find_element(By.XPATH,
@@ -27,7 +27,7 @@ class ShoppingBasket(object):
 
     def getSumPriceText(self, driver):
         return int(
-            re.sub('\D', '', driver.find_element(By.XPATH, "//div[@class='cart-receipt__sum-price']//span").text))
+            re.sub(r'\D', '', driver.find_element(By.XPATH, "//div[@class='cart-receipt__sum-price']//span").text))
 
     def isBasketEmptyStatusTextPresent(self, driver):
         try:

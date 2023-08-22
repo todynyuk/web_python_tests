@@ -77,7 +77,7 @@ class DeviceCategory(BasePage):
         low_to_hight_price_list = []
         priceItemText = driver.find_elements(By.XPATH, DeviceCategoryLocators.DEVICE_PRICES)
         for i in priceItemText:
-            low_to_hight_price_list.append(re.sub('\D', '', i.text))
+            low_to_hight_price_list.append(re.sub(r'\D', '', i.text))
         return all(low_to_hight_price_list[j] <= low_to_hight_price_list[j + 1] for j in
                    range(len(low_to_hight_price_list) - 1))
 
@@ -85,7 +85,7 @@ class DeviceCategory(BasePage):
         low_to_hight_price_list = []
         priceItemText = driver.find_elements(By.XPATH, DeviceCategoryLocators.DEVICE_PRICES)
         for i in priceItemText:
-            low_to_hight_price_list.append(re.sub('\D', '', i.text))
+            low_to_hight_price_list.append(re.sub(r'\D', '', i.text))
         return all(low_to_hight_price_list[j] >= low_to_hight_price_list[j + 1] for j in
                    range(len(low_to_hight_price_list) - 1))
 
@@ -97,13 +97,13 @@ class DeviceCategory(BasePage):
     def getSmartphonePriceText(self, driver, index):
         driver.execute_script("window.scrollTo(0, 220)")
         xpath = f"//span[@class='goods-tile__price-value'][{index}]"
-        return int(re.sub('\D', '', driver.find_element(By.XPATH, xpath).text))
+        return int(re.sub(r'\D', '', driver.find_element(By.XPATH, xpath).text))
 
     def isAllGoodsSortedFromHighToLowPrice(self, driver):
         low_to_hight_price_list = []
         priceItemText = driver.find_elements(By.XPATH, DeviceCategoryLocators.DEVICE_PRICES)
         for i in priceItemText:
-            low_to_hight_price_list.append(re.sub('\D', '', i.text))
+            low_to_hight_price_list.append(re.sub(r'\D', '', i.text))
         return all(low_to_hight_price_list[j] >= low_to_hight_price_list[j + 1] for j in
                    range(len(low_to_hight_price_list) - 1))
 
