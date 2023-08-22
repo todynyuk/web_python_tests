@@ -11,3 +11,4 @@ mss~=7.0.1
 
 pytest_zebrunner~=1.5.7
 allure-pytest~=2.12.0
+pydantic~=1.1
