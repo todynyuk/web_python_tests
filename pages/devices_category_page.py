@@ -26,7 +26,7 @@ class DeviceCategory(BasePage):
     def get_prices_list(self, driver):
         chosen_price_devices = []
         for elem in driver.find_elements(By.XPATH, DeviceCategoryLocators.DEVICE_PRICES):
-            chosen_price_devices.append(re.sub('\D', '', elem.text))
+            chosen_price_devices.append(re.sub(r'\D', '', elem.text))
         return chosen_price_devices
 
     def click_check_box_filter(self, driver, param):
