@@ -6,6 +6,22 @@ class MainPageLocators:
     SEARCH_BUTTON = (By.CSS_SELECTOR, "button[class*='button_color_green']")
     GOODS_TITLE_TEXTS = (By.XPATH, "//span[@class='goods-tile__title']")
     NOT_FOUND_TEXT = (By.XPATH, "//span[@class='ng-star-inserted']")
+    BURGER_MENU = (By.XPATH, "//rz-mobile-user-menu[contains(@class,'menu')]/button[contains(@class,'header__button')]")
+    CITY_TOGGLE = (By.XPATH, "//button[contains(@class,'city-toggle')]")
+    CITY_INPUT_FIELD = (By.XPATH, "//input[contains(@class,'input-text')]")
+    CHOSEN_CITY = (By.XPATH, "(//div[@class='autocomplete__item'])[1]")
+    APPLY_CHOSEN_CITY_BUTTON = (By.XPATH, "//div[@class='header-location__footer']/button[contains(@class,'button')]")
+    CITY_TOGGLE_TEXT = (By.XPATH, "//span[@class='city-toggle__text']")
+    SIGN_IN_BUTTON = (By.XPATH,"//li[contains(@class,'user')]")
+    REGISTER_LINK = (By.XPATH,"//button[contains(@class,'register-link')]")
+    FIRSTNAME_INPUT_FIELD = "//input[@id='registerUserName']"
+    LASTNAME_INPUT_FIELD = "//input[@id='registerUserSurname']"
+    USER_PHONE_NUMBER_INPUT_FIELD = "//input[@id='registerUserPhone']"
+    USER_EMAIL_INPUT_FIELD = "//input[@id='registerUserEmail']"
+    USER_PASSWORD_INPUT_FIELD = "//input[@id='registerUserPassword']"
+    REGISTER_BUTTON = (By.XPATH,"//button[contains(@class,'auth-modal__submit')]")
+    REGISTER_ERROR_MESSAGE = "//p[contains(@class,'validation-message')]"
+    REGISTER_ERROR_LIST_MESSAGE = "//ul[contains(@class,'errors-list')]"
 
 
 class DevicePageLocators:
